@@ -23,5 +23,5 @@ if method == "i":
 	fibonacci = fibIter(n)
 elif method == "r":
 	fibonacci = fibRec(n)
-print("Python 3 done\n" + str(fibonacci))
+print("Python 3 done " + method + "\n" + str(fibonacci))
 
